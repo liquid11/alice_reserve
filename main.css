@@ -418,7 +418,7 @@ margin-right: 150px; */
 .content {
     margin-top: 24px;
     /* float: left; */
-    /* padding-left: 14px; */
+    padding-bottom: 100px;
 }
 
 .content-wrapper {
@@ -470,121 +470,35 @@ margin-right: 150px; */
     /* width: 100%; */
 }
 
+.col-group .col-stretch {
+    width: 354px;
+}
+
 .col-group .description {
     height: 61px !important;
 }
 
 .submit {
-    max-width: 176px;
+    max-width: 354px;
     height: 40px;
     color: #ffffff;
     background-color: #f7295c;
     border: 0;
     width: 100%;
 }
-/* 
-.banner {
-    margin-top: 24px;
-    overflow: hidden;
-    background-color: #ffffff;
+
+.content .content-footer .checkbox {
+    float: left;
 }
 
-.banner .banner-wrapper {
-    margin: 0 auto;
-    max-width: 960px;
-    width: 100%;
+.content .content-footer .sub-text {
+    max-width: 330px;
+    font-size: 12.3px;
+    text-align: left;
+    color: #083b52;
+    font-weight: 400;
+    display: inline-block;
 }
-
-.banner .img-margin {
-    margin-top: 0;
-    padding-top: 20px;
-    padding-bottom: 28px;
-}
-
-.banner .top-margin {
-    padding-top: 10px;
-}
-
-.banner .content {
-    width: 227px;
-    /* height: 50px;  */
-    font-family: Roboto;
-    font-size: 13px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.4;
-    letter-spacing: 0.3px;
-    color: #105372;
-    overflow: hidden;
-    /* padding: 8px; */
-}
-
-.banner .content .email-width {
-    width: 236px !important;
-}
-
-.banner .content .assistant-width {
-    width: 241px !important;
-}
-
-.banner .content .bold {
-    font-weight: bold;
-}
-
-.banner .content .light {
-    font-weight: lighter;
-}
-
-.banner .content .support-link {
-    color: #009db6;
-}
-
-.products {
-    background-color: #002836;
-    overflow: hidden;
-}
-
-.products-wrapper {
-    margin: 0 auto;
-    max-width: 799px;
-}
-
-.products-main {
-    /* float: left; */
-    /* margin-left: 131px; */
-}
-
-.products-rectangle {
-    margin-top: 60px;
-    width: 50px;
-    height: 5px;
-    background-color: #f7295c;
-}
-
-.products .question-text {
-    /* width: 531px;
-    height: 33px; */
-    font-family: Roboto;
-    font-size: 28px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #ffffff;
-    padding-top: 19px;
-}
-
-.products .btn-contact {
-    margin-top: 40px;
-    margin-bottom: 130px;
-    width: 246px;
-    height: 40px;
-    color: #ffffff;
-    background-color: #f7295c;
-    border: 0;
-} */
 
 .footer {
     margin-top: 15px;
