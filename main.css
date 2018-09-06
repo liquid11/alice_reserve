@@ -362,7 +362,7 @@ margin-right: 150px; */
     line-height: normal;
     letter-spacing: 0.3px;
     text-align: right;
-    color: black;
+    color: #ffffff;
     text-decoration: none;
     letter-spacing: normal;
     padding: 10px;
@@ -386,9 +386,9 @@ margin-right: 150px; */
     margin-left: 49px;
 }
 
-.help-text {
-    /* width: 469px;
-  height: 52px; */
+/* .help-text {
+    width: 469px;
+  height: 52px; 
     font-family: Roboto;
     font-size: 42px;
     font-weight: 300;
@@ -398,21 +398,38 @@ margin-right: 150px; */
     letter-spacing: 0.1px;
     text-align: left;
     color: #002836;
+} */
+
+.help-text {
+    width: 469px;
+    height: 52px;
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.18;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #083b52;
+}
+
+.Insert-text-here .text-style-1 {
+    letter-spacing: normal;
 }
 
 .help-text-sub {
-    /* width: 469px;
-    height: 26px; */
-    max-width: 418px;
+    width: 487px;
+    height: 26px;
     font-family: Roboto;
     font-size: 19px;
-    font-weight: 300;
+    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.37;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.1px;
     text-align: left;
-    color: #002836;
+    color: #083b52;
 }
 
 .content {
@@ -430,9 +447,9 @@ margin-right: 150px; */
     margin-top: 12px;
 }
 
-.form {
+form {
     overflow: hidden;
-    margin-top: 153px;
+    padding-top: 42px;
     /* padding-left: 14px; */
 }
 
@@ -487,16 +504,39 @@ margin-right: 150px; */
     width: 100%;
 }
 
+.or-give-us-a-call-at {
+    width: 350px;
+    height: 20px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #083b52;
+}
+
 .content .content-footer .checkbox {
     float: left;
+  
+    background-color: #019bb3;
+    /* background-color: var(--white); */
 }
 
 .content .content-footer .sub-text {
-    max-width: 330px;
-    font-size: 12.3px;
+    width: 360px;
+    height: 34px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
     text-align: left;
     color: #083b52;
-    font-weight: 400;
     display: inline-block;
 }
 
