@@ -441,10 +441,94 @@ margin-right: 150px; */
 .content-wrapper {
     margin: 0 auto;
     max-width: 1262px;
+    overflow: hidden;
 }
 
 .content .help-text-sub {
     margin-top: 12px;
+}
+
+.content .content-left {
+    float: left;
+}
+
+.content .content-right {
+    float: left;
+    background-color: #ffffff;
+    margin-left: 55px;
+    margin-top: 30px;
+    padding-left: 42px;
+    width: 675px;
+    /* padding-top: 30px; */
+}
+
+.content .content-right .header-text {
+    padding-top: 19px;
+    width: 339px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 1.2px;
+    text-align: left;
+    color: #105372;
+}
+
+/* .content .content-right .content-customers-wrapper {
+    margin: 0 auto;
+    max-width: 637px;
+} */
+
+.content .content-right .content-customers .the-ludlow-hotel-ne {
+    width: 151px;
+    font-family: Roboto;
+    font-size: 16px;
+    padding-top: 41px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #002836;
+}
+
+.content .content-right .content-customers .the-ludlow-hotel-ne .text-style-1 {
+    font-weight: normal;
+}
+
+.content .content-right .content-customers .the-front-desk-at {
+    padding-top: 5px;
+    width: 197px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #002836;
+}
+
+.content .content-right .content-customers {
+    overflow: hidden;
+}
+
+.content .content-right .content-customers-left {
+    width: 195px;
+    float: left;
+}
+
+.content .content-right .content-customers-right {
+    float: left;
+    padding-top: 42px;
+}
+
+.content .content-right .content-customers-right img {
+    width: 410px;
 }
 
 form {
@@ -520,7 +604,6 @@ form {
 
 .content .content-footer .checkbox {
     float: left;
-  
     background-color: #019bb3;
     /* background-color: var(--white); */
 }
